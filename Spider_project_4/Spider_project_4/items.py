@@ -7,8 +7,12 @@
 
 import scrapy
 
-
 class SpiderProject4Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    name = scrapy.Field(),
+    author = scrapy.Field(),
+    price = scrapy.Field(),
+    aedition_year = scrapy.Field(),
+    publisher = scrapy.Field(),
+    ratings = scrapy.Field()
